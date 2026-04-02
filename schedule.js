@@ -108,7 +108,7 @@ const sections = [
     section6,
     section7,
     section8,
-    section9
+    // section9
 ];
 
 const ONE_DAY = 24 * 60 * 60 * 1000
