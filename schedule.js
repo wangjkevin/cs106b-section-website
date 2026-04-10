@@ -3,7 +3,7 @@ const section1 = {
     title: "C++ Fundamentals, Electric Boogaloo",
     date: new Date(2026, 4 - 1, 10),
     slides: "https://docs.google.com/presentation/d/1T8Z-xBVbOV-_aRT3U9oAXFSjb6UE6OyW0DygfiutH38/edit?usp=sharing",
-    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/sections/section1/",
+    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section1/",
     miscLinks: {
         "Style Guide": "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/course/style_guide/"
     }
@@ -14,7 +14,7 @@ const section2 = {
     title: "O-mazing ADTs to the Rescue!",
     date: new Date(2026, 4 - 1, 17),
     slides: "https://docs.google.com/presentation/d/1oDVdx5kDBx8y8hrfkeuLqbdait489jimQZePQCkN3DU/edit?usp=sharing",
-    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/sections/section2/",
+    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section2/",
     miscLinks: {
         "ADT Reference Sheet": "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/assessments/1-midterm/refsheet.pdf"
     }
@@ -25,7 +25,7 @@ const section3 = {
     title: "Recursion: The Leap of Faith",
     date: new Date(2026, 4 - 1, 24),
     slides: "https://docs.google.com/presentation/d/1scGvj9VPZE6Ubq3111ABOltl5DzFkhyyygNHKM9i6JY/edit?usp=sharing",
-    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/sections/section3/",
+    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section3/",
     miscLinks: {
         "This page... :-)": ".",
         "Crows Know Recursion?!": "https://www.scientificamerican.com/article/crows-perform-yet-another-skill-once-thought-distinctively-human/"
@@ -37,7 +37,7 @@ const section4 = {
     title: "Dead Ends ~ Backpacking and Backtracking",
     date: new Date(2026, 5 - 1, 1),
     slides: "https://docs.google.com/presentation/d/1iNgw5X3x7wVKUr1NLeLs_uUeoyq6MP-7zA0_kMbpfKg/edit?usp=sharing",
-    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/sections/section4/",
+    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section4/",
     miscLinks: {
         "More on Knapsack": "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1252/lectures/12-backtracking2/slides",
         "Knapsack with Genetic Algorithms?!": "https://youtu.be/MacVqujSXWE",
@@ -50,7 +50,7 @@ const section5 = {
     title: "Types You Can Create! And Dynamic Memory...",
     date: new Date(2026, 5 - 1, 8),
     slides: "https://docs.google.com/presentation/d/1va5uI8gVogtk1nMlRTHuTcq4G9xraQoQZjTWHV75ZiI/edit?usp=sharing",
-    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/sections/section5/",
+    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section5/",
     miscLinks: {
     }
 };
@@ -60,7 +60,7 @@ const section6 = {
     title: "Pointer Mayhem, or That One Spiderman Meme",
     date: new Date(2026, 5 - 1, 15),
     slides: "https://docs.google.com/presentation/d/1UdlK_g3Yk1cyd3eJOsu_4-fWNzoI_UaxDF0aIr8lnAY/edit?usp=sharing",
-    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/sections/section6",
+    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section6",
     miscLinks: {
         "Pointers with Binky": "https://www.youtube.com/watch?v=5VnDaHBi8dM&pp=ygUWcG9pbnRlciBmdW4gd2l0aCBiaW5reQ%3D%3D"
     }
@@ -71,7 +71,7 @@ const section7 = {
     title: "Linked Lists, aka Kurapika's Chains",
     date: new Date(2026, 5 - 1, 22),
     slides: "https://docs.google.com/presentation/d/1NnqdX9vdI4-_cKMhOBpBb1xGoWYZFp52-GgNwFovULc/edit?usp=sharing",
-    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/sections/section7",
+    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section7",
     miscLinks: {
         "More Linked List Problems": "http://cslibrary.stanford.edu/103/"
     }
@@ -82,7 +82,7 @@ const section8 = {
     title: "Trees, the 💖 of CS!",
     date: new Date(2026, 5 - 1, 29),
     slides: "https://docs.google.com/presentation/d/1pwVQ4c6VjiMxyHxvzxMuR1feuw4JFsfl4eyBC6F8_ag/edit?usp=sharing",
-    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/sections/section8",
+    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section8",
     miscLinks: {
     }
 };
@@ -92,7 +92,7 @@ const section9 = {
     title: "The Journey's End, The Journey Onward",
     date: new Date(2026, 6 - 1, 5),
     slides: "https://docs.google.com/presentation/d/1nwBY7148duq89oyxzqeKs5r0r7xqmbqYpJt3n5qBEKU/edit?usp=sharing",
-    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/sections/section9/",
+    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section9/",
     miscLinks: {
         "Extra Practice": "./finale"
     }
