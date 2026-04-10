@@ -5,7 +5,7 @@ const section1 = {
     slides: "https://docs.google.com/presentation/d/1T8Z-xBVbOV-_aRT3U9oAXFSjb6UE6OyW0DygfiutH38/edit?usp=sharing",
     handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section1/",
     miscLinks: {
-        "Style Guide": "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/resources/style_guide/"
+        "Style Guide": "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/resources/style_guide"
     }
 };
 
