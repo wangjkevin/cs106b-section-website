@@ -11,7 +11,7 @@ const section1 = {
 
 const section2 = {
     emoji: "🗃️",
-    title: "O-mazing ADTs to the Rescue!",
+    title: "O-maze-ing ADTs to the Rescue!",
     date: new Date(2026, 4 - 1, 17),
     slides: "https://docs.google.com/presentation/d/1oDVdx5kDBx8y8hrfkeuLqbdait489jimQZePQCkN3DU/edit?usp=sharing",
     handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section2/",
