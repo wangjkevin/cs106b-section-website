@@ -10,34 +10,24 @@ const section1 = {
 };
 
 const section2 = {
-    emoji: "🗃️",
-    title: "O-maze-ing ADTs to the Rescue!",
+    emoji: "🌀",
+    title: "Recursion: The Big Ol' Leap of Faith",
     date: new Date(2026, 4 - 1, 17),
     slides: "https://docs.google.com/presentation/d/1oDVdx5kDBx8y8hrfkeuLqbdait489jimQZePQCkN3DU/edit?usp=sharing",
     handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section2/",
     miscLinks: {
-        "ADT Reference Sheet": "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1264/assessments/1-midterm/refsheet.pdf"
-    }
-};
-
-const section3 = {
-    emoji: "🌀",
-    title: "Recursion: The Leap of Faith",
-    date: new Date(2026, 4 - 1, 24),
-    slides: "https://docs.google.com/presentation/d/1scGvj9VPZE6Ubq3111ABOltl5DzFkhyyygNHKM9i6JY/edit?usp=sharing",
-    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section3/",
-    miscLinks: {
+        "ADT Reference Sheet": "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1264/assessments/1-midterm/refsheet.pdf",
         "This page... :-)": ".",
         "Crows Know Recursion?!": "https://www.scientificamerican.com/article/crows-perform-yet-another-skill-once-thought-distinctively-human/"
     }
 };
 
-const section4 = {
+const section3 = {
     emoji: "🎒",
     title: "Dead Ends ~ Backpacking and Backtracking",
-    date: new Date(2026, 5 - 1, 1),
-    slides: "https://docs.google.com/presentation/d/1iNgw5X3x7wVKUr1NLeLs_uUeoyq6MP-7zA0_kMbpfKg/edit?usp=sharing",
-    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section4/",
+    date: new Date(2026, 4 - 1, 24),
+    slides: "https://docs.google.com/presentation/d/1scGvj9VPZE6Ubq3111ABOltl5DzFkhyyygNHKM9i6JY/edit?usp=sharing",
+    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section3/",
     miscLinks: {
         "More on Knapsack": "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1252/lectures/12-backtracking2/slides",
         "Knapsack with Genetic Algorithms?!": "https://youtu.be/MacVqujSXWE",
@@ -45,58 +35,69 @@ const section4 = {
     }
 };
 
-const section5 = {
+const section4 = {
     emoji: "🐼",
-    title: "Types You Can Create! And Dynamic Memory...",
-    date: new Date(2026, 5 - 1, 8),
-    slides: "https://docs.google.com/presentation/d/1va5uI8gVogtk1nMlRTHuTcq4G9xraQoQZjTWHV75ZiI/edit?usp=sharing",
-    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section5/",
+    title: "Types You Can Create!",
+    date: new Date(2026, 5 - 1, 1),
+    slides: "https://docs.google.com/presentation/d/1iNgw5X3x7wVKUr1NLeLs_uUeoyq6MP-7zA0_kMbpfKg/edit?usp=sharing",
+    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section4/",
     miscLinks: {
     }
 };
 
-const section6 = {
+const section5 = {
     emoji: "☝️",
     title: "Pointer Mayhem, or That One Spiderman Meme",
-    date: new Date(2026, 5 - 1, 15),
-    slides: "https://docs.google.com/presentation/d/1UdlK_g3Yk1cyd3eJOsu_4-fWNzoI_UaxDF0aIr8lnAY/edit?usp=sharing",
-    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section6",
+    date: new Date(2026, 5 - 1, 8),
+    slides: "https://docs.google.com/presentation/d/1va5uI8gVogtk1nMlRTHuTcq4G9xraQoQZjTWHV75ZiI/edit?usp=sharing",
+    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section5/",
     miscLinks: {
         "Pointers with Binky": "https://www.youtube.com/watch?v=5VnDaHBi8dM&pp=ygUWcG9pbnRlciBmdW4gd2l0aCBiaW5reQ%3D%3D"
     }
 };
 
-const section7 = {
+const section6 = {
     emoji: "🔗",
     title: "Linked Lists, aka Kurapika's Chains",
-    date: new Date(2026, 5 - 1, 22),
-    slides: "https://docs.google.com/presentation/d/1NnqdX9vdI4-_cKMhOBpBb1xGoWYZFp52-GgNwFovULc/edit?usp=sharing",
-    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section7",
+    date: new Date(2026, 5 - 1, 15),
+    slides: "https://docs.google.com/presentation/d/1UdlK_g3Yk1cyd3eJOsu_4-fWNzoI_UaxDF0aIr8lnAY/edit?usp=sharing",
+    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section6",
     miscLinks: {
         "More Linked List Problems": "http://cslibrary.stanford.edu/103/"
     }
 };
 
-const section8 = {
+const section7 = {
     emoji: "🌴",
     title: "Trees, the 💖 of CS!",
-    date: new Date(2026, 5 - 1, 29),
-    slides: "https://docs.google.com/presentation/d/1pwVQ4c6VjiMxyHxvzxMuR1feuw4JFsfl4eyBC6F8_ag/edit?usp=sharing",
-    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section8",
+    date: new Date(2026, 5 - 1, 22),
+    slides: "https://docs.google.com/presentation/d/1NnqdX9vdI4-_cKMhOBpBb1xGoWYZFp52-GgNwFovULc/edit?usp=sharing",
+    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section7",
     miscLinks: {
     }
 };
 
-const section9 = {
+const section8 = {
     emoji: "🌟",
     title: "The Journey's End, The Journey Onward",
-    date: new Date(2026, 6 - 1, 5),
-    slides: "https://docs.google.com/presentation/d/1nwBY7148duq89oyxzqeKs5r0r7xqmbqYpJt3n5qBEKU/edit?usp=sharing",
-    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section9/",
+    date: new Date(2026, 5 - 1, 29),
+    slides: "https://docs.google.com/presentation/d/1pwVQ4c6VjiMxyHxvzxMuR1feuw4JFsfl4eyBC6F8_ag/edit?usp=sharing",
+    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section8",
     miscLinks: {
         "Extra Practice": "./finale"
     }
 };
+
+// const section9 = {
+//     emoji: "🌟",
+//     title: "The Journey's End, The Journey Onward",
+//     date: new Date(2026, 6 - 1, 5),
+//     slides: "https://docs.google.com/presentation/d/1nwBY7148duq89oyxzqeKs5r0r7xqmbqYpJt3n5qBEKU/edit?usp=sharing",
+//     handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section9/",
+//     miscLinks: {
+//         "Extra Practice": "./finale"
+//     }
+// };
 
 
 const sections = [
