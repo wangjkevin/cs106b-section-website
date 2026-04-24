@@ -1,13 +1,17 @@
-METEOR_SHOWER_MIN_FRAC = 2/5;
-METEOR_SHOWER_MAX_FRAC = 4/5;
-VEL_X_MIN = 1;
-VEL_X_MAX = 5;
-VEL_Y_MIN = 7;
-VEL_Y_MAX = 18.75;
-ANGLE_INCREMENT_MIN = 0.1;
-ANGLE_INCREMENT_MAX = 0.25;
-EMOJI_OPACITY = 0.5;
-EMOJIS = ["⭐", "🌟", "🌠", "💫", "✨", "🌑", "🌕", "🪐", "🌌", "☄️", "🥮"]
+const METEOR_SHOWER_MIN_FRAC = 2/5;
+const METEOR_SHOWER_MAX_FRAC = 4/5;
+
+const VEL_X_MIN = 1;
+const VEL_X_MAX = 5;
+
+const VEL_Y_MIN = 7;
+const VEL_Y_MAX = 18.75;
+
+const ANGLE_INCREMENT_MIN = 0.1;
+const ANGLE_INCREMENT_MAX = 0.25;
+
+const EMOJI_OPACITY = 0.5;
+const EMOJIS = ["⭐", "🌟", "🌠", "💫", "✨", "🌑", "🌕", "🪐", "🌌", "☄️", "🥮"]
 
 class Meteor {
     // pass in canvas cuz globals are bad

@@ -1,4 +1,4 @@
-const section1 = {
+const SECTION_1 = {
     emoji: "⚙️",
     title: "C++ Fundamentals, Electric Boogaloo",
     date: new Date(2026, 4 - 1, 10),
@@ -9,7 +9,7 @@ const section1 = {
     }
 };
 
-const section2 = {
+const SECTION_2 = {
     emoji: "🌀",
     title: "Recursion: The Big Ol' Leap of Faith",
     date: new Date(2026, 4 - 1, 17),
@@ -22,7 +22,7 @@ const section2 = {
     }
 };
 
-const section3 = {
+const SECTION_3 = {
     emoji: "🎒",
     title: "Dead Ends ~ Backpacking and Backtracking",
     date: new Date(2026, 4 - 1, 24),
@@ -35,7 +35,7 @@ const section3 = {
     }
 };
 
-const section4 = {
+const SECTION_4 = {
     emoji: "🐼",
     title: "Types You Can Create!",
     date: new Date(2026, 5 - 1, 1),
@@ -45,7 +45,7 @@ const section4 = {
     }
 };
 
-const section5 = {
+const SECTION_5 = {
     emoji: "☝️",
     title: "Pointer Mayhem, or That One Spiderman Meme",
     date: new Date(2026, 5 - 1, 8),
@@ -56,7 +56,7 @@ const section5 = {
     }
 };
 
-const section6 = {
+const SECTION_6 = {
     emoji: "🔗",
     title: "Linked Lists, aka Kurapika's Chains",
     date: new Date(2026, 5 - 1, 15),
@@ -67,7 +67,7 @@ const section6 = {
     }
 };
 
-const section7 = {
+const SECTION_7 = {
     emoji: "🌴",
     title: "Trees, the 💖 of CS!",
     date: new Date(2026, 5 - 1, 22),
@@ -77,7 +77,7 @@ const section7 = {
     }
 };
 
-const section8 = {
+const SECTION_8 = {
     emoji: "🌟",
     title: "The Journey's End, The Journey Onward",
     date: new Date(2026, 5 - 1, 29),
@@ -100,16 +100,15 @@ const section8 = {
 // };
 
 
-const sections = [
-    section1,
-    section2,
-    section3,
-    section4,
-    section5,
-    section6,
-    section7,
-    section8,
-    // section9
+const SECTIONS = [
+    SECTION_1,
+    SECTION_2,
+    SECTION_3,
+    SECTION_4,
+    SECTION_5,
+    SECTION_6,
+    SECTION_7,
+    SECTION_8,
 ];
 
 const ONE_DAY = 24 * 60 * 60 * 1000
@@ -163,4 +162,4 @@ function setDivs(sections) {
     }
 }
 
-setDivs(sections);
+setDivs(SECTIONS);
