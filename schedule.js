@@ -16,7 +16,7 @@ const SECTION_2 = {
     slides: "https://docs.google.com/presentation/d/1oDVdx5kDBx8y8hrfkeuLqbdait489jimQZePQCkN3DU/edit?usp=sharing",
     handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section2/",
     miscLinks: {
-        "ADT Reference Sheet": "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1264/assessments/1-midterm/refsheet.pdf",
+        "ADT Reference Sheet": "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/exams/1-midterm/refsheet.pdf",
         "This page... :-)": ".",
         "Crows Know Recursion?!": "https://www.scientificamerican.com/article/crows-perform-yet-another-skill-once-thought-distinctively-human/"
     }
