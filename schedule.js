@@ -46,7 +46,7 @@ const SECTION_4 = {
 };
 
 const SECTION_5 = {
-    emoji: "☝️",
+    emoji: "🎞️",
     title: "\"Thank you for the memories!\"",
     date: new Date(2026, 5 - 1, 8),
     slides: "https://docs.google.com/presentation/d/1va5uI8gVogtk1nMlRTHuTcq4G9xraQoQZjTWHV75ZiI/edit?usp=sharing",
