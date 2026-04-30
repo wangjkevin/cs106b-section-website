@@ -42,13 +42,13 @@ const SECTION_4 = {
     slides: "https://docs.google.com/presentation/d/1iNgw5X3x7wVKUr1NLeLs_uUeoyq6MP-7zA0_kMbpfKg/edit?usp=sharing",
     handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section4/",
     miscLinks: {
-        "Kiwi!": "https://youtu.be/sdUUx5FdySs"
+        "Kiwi! 🥝🐦": "https://youtu.be/sdUUx5FdySs"
     }
 };
 
 const SECTION_5 = {
     emoji: "🎞️",
-    title: "\"Thank you for the memory!\"",
+    title: "\"Thank you for the memories!\"",
     date: new Date(2026, 5 - 1, 8),
     slides: "https://docs.google.com/presentation/d/1va5uI8gVogtk1nMlRTHuTcq4G9xraQoQZjTWHV75ZiI/edit?usp=sharing",
     handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section5/",
