@@ -1,0 +1,123 @@
+<!doctype html>
+
+<html lang=en>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Kevin's CS106B Section</title>
+
+        <link rel="icon" href="images/olivine_green.png">
+
+        <!-- we'll just be using jquery to play some audio -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+        <!-- backup comic neue font just in case... -->
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue" rel="stylesheet">
+        
+        <!-- magical style secrets lie within... (not really) -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+
+    
+    <body style="font-family: 'Comic Sans MS', 'Comic Sans', 'Comic Neue', cursive">
+
+        <!-- list out the audio we're going to use (putting it in the body is arbitrary) -->
+        <audio id="hover-bloop">
+            <source src="audio/multimedia_button_click_029.mp3"></source>
+        </audio>
+        <audio id="click-bloop">
+            <source src="audio/multimedia_button_click_006.mp3"></source>
+        </audio>
+        <audio id="sparkles">
+            <source src="audio/bss_petal_wand.wav"></source>
+        </audio>
+
+        <!-- classic two-column layout! :) -->
+        <div id="page">
+            <!-- left hand side: the navigation bar (but who really uses it anyways...) -->
+            <aside>
+            <!-- 
+            if you're one of my sectionees seeing this comment, hello! i fully commend and endorse you snooping around. that's the spirit!
+            send me an email with a screenshot of this comment, and i'll give you all the good karma there is in the world, or at least
+            how much karma i have, haha
+            -->
+                <nav aria-label="navigation">
+                    <ul>
+                        <li>
+                            <a href="index.html#main-page">
+                                <img class="homepage-img" alt="Welcome to CS106B!" src="images/ash_and_pikachu.jpg">
+                            </a>
+                        </li>
+                        <br>
+                        <li><a href="index.html#sections" style="color: #C4B5FD"><strong>Slides</strong></a></li>
+                        <br>
+                        <li><a href="index.html#info" style="color: #C4B5FD"><strong>Info</strong></a></li>
+                        <br>
+                    </ul>
+                </nav>
+            </aside>
+
+            <!-- the main content of the page...let's call it "main" >:) -->
+            <div id="main">
+
+                <h1 id="main-page"><span id="section-title" class="rainbow">CS106B Section</span> 💫</h1>
+                <script src="meteor_shower.js"></script>
+                <h3 style="opacity: 50%">Kevin Wang (kevjwang@stanford.edu)</h3>
+
+                <!------------- GENERAL COURSE INFO - EDIT EVERY QUARTER --------------->
+
+                <div class="portal">🎿 Winter 2026</div>
+                <div class="portal">🏢 Gilbert 117</div>
+                <div class="portal">⌛ Fridays 9:30am-10:20am</div>
+        
+
+                <!---------------------------------------------------------------------->
+
+                <p>Hi! This is my homepage for my CS106B slides, links to section handouts, along with any other additional links. If you have any questions, please reach out to me through email or Slack!</p>
+
+                <h2 id="sections">Schedule</h2>
+                <div id="schedule"></div>
+                <script src="schedule.js"></script>
+
+                <h2 id="info">General Section Information</h2>
+                <p>
+                    Section is graded on attendance and participation, and it will make up 5% of your final grade in this class. See <a href="https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1264/course/about_section" target="_blank">here</a> for more information. If you ever have any questions, don't be afraid to ask me during section or right afterwards!
+                </p>
+                <p>
+                    For getting help in CS106B, please see the <a href="https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1264/">course website</a> for the exact times office hours are held, along with the Ed forum.
+                </p>
+                <p>
+                    I hold a LaIR shift on Wednesdays 7-9pm every other week at CoDa B60. (LaIR is the official office hours held by the SLs.) Please stop by and say hi! I would love to see all of you there. 💖
+                </p>
+
+                <p style="font-size: 12.5px;">© Kevin Wang. Website theme based on Ben Yan's wonderful CS107 <a href="https://stanford.edu/~bbyan/cs107-spr2025/">lab website</a>. <em>Huge</em> thanks to Ben!</p>
+
+                <!-- audio clicking time :O -->
+                <script>
+                    // hovering
+                    $(document).ready(function () {
+                        let hoverBloop = $("#hover-bloop")[0];
+                        $(".clicky").mouseenter(function() {
+                            hoverBloop.volume = 0.35;
+                            hoverBloop.play();
+                        })
+                    })
+
+                    // clicking
+                    $(document).ready(function () {
+                        let clickBloop = $("#click-bloop")[0];
+                        $(".clicky").click(function() {
+                            clickBloop.volume = 0.75;
+                            clickBloop.play();
+                        })
+                    }) 
+                </script>
+
+
+            </div>
+        </div>
+
+    </body>
+
+</html>
