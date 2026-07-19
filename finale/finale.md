@@ -13,15 +13,15 @@ Hi scholars! As we near the final, I wanted to give you all more opportunities t
 
 ## Backtracking: Solving _Connections!_
 
-You've probably heard of it: the notorious [Connections](https://www.google.com/url?q=https://www.nytimes.com/games/connections/&sa=D&source=editors&ust=1773223570887454&usg=AOvVaw0_6U8AoLRAzmDed6CYz0UP) puzzle, infamously crafted by puzzle creator [Wyna Liu](https://www.google.com/url?q=https://www.wynaliu.com/about&sa=D&source=editors&ust=1773223570887617&usg=AOvVaw2xsPg0-ogXL968MUoY0pSv) and released daily by the New York Times. In Connections, your goal is to form four groups of four items each, where each group shares something in common. There's always exactly one solution for each puzzle, and each group is more difficult than the previous. If you haven't played this game before, try solving today's puzzle! Chances are it's not that easy. This experience of frustration will form the backbone of this problem. >:-)
+You've probably heard of it: the notorious [Connections](https://www.nytimes.com/games/connections/) puzzle, infamously crafted by puzzle creator [Wyna Liu](https://www.wynaliu.com/about) and released daily by the New York Times. In Connections, your goal is to form four groups of four items each, where each group shares something in common. There's always exactly one solution for each puzzle, and each group is more difficult than the previous. If you haven't played this game before, try solving today's puzzle! Chances are it's not that easy. This experience of frustration will form the backbone of this problem. >:-)
 
 As a primer, Connections is played in a 4x4 grid, and your goal is to form four semantically-tight groups of four words. For example, here's the puzzle for March 9, 2026:
 
-<img src="https://stanford.edu/~kevjwang/cs106b/finale/images/image7.png" width="476" height="277">
+<img src="./images/connections.png" width="476" height="277">
 
 And here's the solution:
 
-<img src="https://stanford.edu/~kevjwang/cs106b/finale/images/image5.png" width="485" height="267">
+<img src="./images/connections-sol.png" width="485" height="267">
 
 In this problem, you'll be writing the following function:
 
@@ -96,9 +96,9 @@ bool solvePuzzle(Set<string> words, Set<Set<string>> &categories) {
 
 ## Linked Lists and Exploding Kittens!
 
-[Exploding Kittens](https://www.google.com/url?q=https://cdn.shopify.com/s/files/1/0345/9180/1483/files/ekoe-instructions-english.pdf?v%3D1743802429&sa=D&source=editors&ust=1773223570896694&usg=AOvVaw34PZNWvPPzr-fxL5Vt_Wp7) is a card game where players continue to draw cards from a pile until they draw an Exploding Kitten, at which point, the person who drew the card is out.
+[Exploding Kittens](https://cdn.shopify.com/s/files/1/0345/9180/1483/files/ekoe-instructions-english.pdf) is a card game where players continue to draw cards from a pile until they draw an Exploding Kitten, at which point, the person who drew the card is out.
 
-<img src="https://stanford.edu/~kevjwang/cs106b/finale/images/image1.png" width="300.5" height="300.5">
+<img src="./images/exploding-kittens.png" width="300.5" height="300.5">
 <p class="center">_Some of the cards in Exploding Kittens!_</p>
 
 There's an important preprocessing step when playing this game, which is going to be the focus of this problem. Before the start of every game, we'll need to take out all the Exploding Kittens in this deck of cards so that we can reinsert them back in.
@@ -199,7 +199,7 @@ Card* diffuse(Card* &deck) {
 
 There's a really popular, monthly Minecraft tournament, hosted by [Noxcrew](noxcrew.com/mcc) and [Scott Smajor](youtube.com/dangthatsalongname), called [Minecraft Championship](mcc.live), where 40 beloved Minecraft content creators are split into 10 teams of four to compete for the crown. They compete across a variety of minigames: the infamous [Parkour Warrior](https://www.youtube.com/watch?v=Rx_L1SbZ14k), the intense [Meltdown](https://www.youtube.com/watch?v=SbOrZFyKt2k), and the classic [Bingo But Fast](https://www.youtube.com/watch?v=IcuWBsYF9C4).
 
-<img src="https://stanford.edu/~kevjwang/cs106b/finale/images/image2.png" width="350.5" height="198">
+<img src="./images/mcc.png" width="350.5" height="198">
 <p class="center">_Minecraft Championship's logo overlaid on top of the Decision Dome._</p>
 
 In this problem, you'll draw out a memory diagram of the stack and the heap after the following lines of code execute. Succeed, and you might find yourself on the throne! 👑
@@ -228,7 +228,7 @@ delete[] games;
 ```
 
 <div class="solution">
-<img src="https://stanford.edu/~kevjwang/cs106b/finale/images/image3.png" width="610" height="373">
+<img src="./images/mem-diagram-sol.png" width="610" height="373">
 </div>
 
 
@@ -237,7 +237,7 @@ delete[] games;
 
 _Doom_ (1993) is one of those canonical video games that completely transfigured the video game landscape. It's considered the first first-person shooter (FPS), and it revolutionized the development of game engines, as well as set up the form of the FPS (just like the structure of a novel) that would reverberate throughout every FPS game out there, like Valorant or CS:GO.
 
-<img src="https://stanford.edu/~kevjwang/cs106b/finale/images/image4.png" width="348.5" height="261">
+<img src="./images/doom.png" width="348.5" height="261">
 _For 1993, these graphics are incredible! For reference, the public release of the World Wide Web was in 1993. :O_
 
 In this problem, we'll explore one of Doom's secrets to fast rendering: **binary space partitioning**.
@@ -248,7 +248,7 @@ We start with a large space, like the entire map of Doom. Then, we recursively d
 
 Here's an example of a BSP tree of a hotel:
 
-<img src="https://stanford.edu/~kevjwang/cs106b/finale/images/image6.png" width="463" height="231">
+<img src="./images/bsp-tree.png" width="463" height="231">
 Rendering the entire hotel map would be expensive, so instead, we divide the map into specific regions. Each arrow can be thought of as a corridor or a door. For example, to enter the Kitchen, you know you'll have to enter through the Diner first, and then walk into the Kitchen. To get to the Second Floor, you'll have to take the Elevator first, which'll then lead you to the Second Floor. You can assume that everyone starts at the Lobby.
 
 With the following struct:
