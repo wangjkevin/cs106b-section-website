@@ -1,3 +1,7 @@
+* {
+    cursor: url("images/non-photo-blue-cursor-20px.png"), auto;
+}
+
 html {
     font-size: 0.925em;
     box-sizing: border-box;
