@@ -1,7 +1,7 @@
 const SECTION_1 = {
     emoji: "⚙️",
     title: "C++ Fundamentals, Electric Boogaloo",
-    date: new Date(2026, 4 - 1, 10),
+    date: new Date(2026, 10 - 1, 2),
     slides: "https://docs.google.com/presentation/d/1T8Z-xBVbOV-_aRT3U9oAXFSjb6UE6OyW0DygfiutH38/edit?usp=sharing",
     handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section1/",
     miscLinks: {
@@ -10,22 +10,32 @@ const SECTION_1 = {
 };
 
 const SECTION_2 = {
-    emoji: "🌀",
-    title: "Recursion: The Big Ol' Leap of Faith",
-    date: new Date(2026, 4 - 1, 17),
+    emoji: "🗃️",
+    title: "O-mazing ADTs to the Rescue!",
+    date: new Date(2026, 10 - 1, 9),
     slides: "https://docs.google.com/presentation/d/1oDVdx5kDBx8y8hrfkeuLqbdait489jimQZePQCkN3DU/edit?usp=sharing",
     handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section2/",
     miscLinks: {
         "ADT Reference Sheet": "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/exams/1-midterm/refsheet.pdf",
+    }
+};
+
+const SECTION_3 = {
+    emoji: "🌀",
+    title: "Recursion: The Leap of Faith",
+    date: new Date(2026, 10 - 1, 16),
+    slides: "https://docs.google.com/presentation/d/1oDVdx5kDBx8y8hrfkeuLqbdait489jimQZePQCkN3DU/edit?usp=sharing",
+    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section2/",
+    miscLinks: {
         "This page... :-)": ".",
         "Crows Know Recursion?!": "https://www.scientificamerican.com/article/crows-perform-yet-another-skill-once-thought-distinctively-human/"
     }
 };
 
-const SECTION_3 = {
+const SECTION_4 = {
     emoji: "🎒",
     title: "Dead Ends ~ Backpacking and Backtracking",
-    date: new Date(2026, 4 - 1, 24),
+    date: new Date(2026, 10 - 1, 23),
     slides: "https://docs.google.com/presentation/d/1scGvj9VPZE6Ubq3111ABOltl5DzFkhyyygNHKM9i6JY/edit?usp=sharing",
     handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section3/",
     miscLinks: {
@@ -35,10 +45,10 @@ const SECTION_3 = {
     }
 };
 
-const SECTION_4 = {
+const SECTION_5 = {
     emoji: "🐼",
-    title: "Types You Can Create?!",
-    date: new Date(2026, 5 - 1, 1),
+    title: "Types You Can Create?! And Dynamic Memory...",
+    date: new Date(2026, 10 - 1, 30),
     slides: "https://docs.google.com/presentation/d/1iNgw5X3x7wVKUr1NLeLs_uUeoyq6MP-7zA0_kMbpfKg/edit?usp=sharing",
     handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section4/",
     miscLinks: {
@@ -46,10 +56,10 @@ const SECTION_4 = {
     }
 };
 
-const SECTION_5 = {
-    emoji: "🎞️",
-    title: "\"Thank you for the memories!\"",
-    date: new Date(2026, 5 - 1, 8),
+const SECTION_6 = {
+    emoji: "☝️",
+    title: "Pointer Mayhem with Pokémon!",
+    date: new Date(2026, 11 - 1, 6),
     slides: "https://docs.google.com/presentation/d/1va5uI8gVogtk1nMlRTHuTcq4G9xraQoQZjTWHV75ZiI/edit?usp=sharing",
     handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section5/",
     miscLinks: {
@@ -57,10 +67,10 @@ const SECTION_5 = {
     }
 };
 
-const SECTION_6 = {
+const SECTION_7 = {
     emoji: "🔗",
     title: "Linked Lists, aka Kurapika's Chains",
-    date: new Date(2026, 5 - 1, 15),
+    date: new Date(2026, 11 - 1, 13),
     slides: "https://docs.google.com/presentation/d/1UdlK_g3Yk1cyd3eJOsu_4-fWNzoI_UaxDF0aIr8lnAY/edit?usp=sharing",
     handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section6",
     miscLinks: {
@@ -68,37 +78,26 @@ const SECTION_6 = {
     }
 };
 
-const SECTION_7 = {
+const SECTION_8 = {
     emoji: "🌴",
     title: "Trees, the 💖 of CS!",
-    date: new Date(2026, 5 - 1, 22),
+    date: new Date(2026, 11 - 1, 20),
     slides: "https://docs.google.com/presentation/d/1NnqdX9vdI4-_cKMhOBpBb1xGoWYZFp52-GgNwFovULc/edit?usp=sharing",
     handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section7",
     miscLinks: {
     }
 };
 
-const SECTION_8 = {
+const SECTION_9 = {
     emoji: "🌟",
     title: "The Journey's End, The Journey Onward",
-    date: new Date(2026, 5 - 1, 29),
+    date: new Date(2026, 11 - 1, 27),
     slides: "https://docs.google.com/presentation/d/1pwVQ4c6VjiMxyHxvzxMuR1feuw4JFsfl4eyBC6F8_ag/edit?usp=sharing",
-    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section8",
+    handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section9/",
     miscLinks: {
         "Extra Practice": "./finale"
     }
 };
-
-// const section9 = {
-//     emoji: "🌟",
-//     title: "The Journey's End, The Journey Onward",
-//     date: new Date(2026, 6 - 1, 5),
-//     slides: "https://docs.google.com/presentation/d/1nwBY7148duq89oyxzqeKs5r0r7xqmbqYpJt3n5qBEKU/edit?usp=sharing",
-//     handout: "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1266/section/section9/",
-//     miscLinks: {
-//         "Extra Practice": "./finale"
-//     }
-// };
 
 
 const SECTIONS = [
@@ -110,6 +109,7 @@ const SECTIONS = [
     SECTION_6,
     SECTION_7,
     SECTION_8,
+    SECTION_9
 ];
 
 const ONE_DAY = 24 * 60 * 60 * 1000
@@ -120,7 +120,9 @@ const ONE_DAY = 24 * 60 * 60 * 1000
 function setDivs(sections) {
     let container = document.getElementById("schedule");
 
-    let todaysDate = new Date();
+    // TODO: set this date to be today's date!!!! this is just a placeholder date!!!!
+    let todaysDate = new Date(2026, 11 - 1, 28);
+    // let todaysDate = new Date();
 
     for (let i = 0; i < sections.length; i++) {
         // note that months are 0-indexed with Date objects (like what?!)
