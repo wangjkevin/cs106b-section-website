@@ -2,6 +2,10 @@
     cursor: url("images/non-photo-blue-cursor-20px.png"), auto;
 }
 
+::selection {
+    background-color: #FFEE8C;
+}
+
 html {
     font-size: 0.925em;
     box-sizing: border-box;
